@@ -98,7 +98,7 @@ const HomeScreen = () => {
         ))}
       </ScrollView>
 
-      {/* Trending Movies */}
+      
       <Text style={styles.sectionTitle}>Trending Now</Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.trendingList}>
         {trendingMovies.map((movie) => (
